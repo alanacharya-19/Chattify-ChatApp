@@ -2,6 +2,28 @@
 
 A modern messaging app built with React Native (Expo) and Firebase. Chattify brings you smooth, real-time conversations with a clean Telegram-inspired interface.
 
+## Screens
+<p float="left">
+  <img src="./assets/ss/1.jpeg" width="150" />
+  <img src="./assets/ss/2.jpeg" width="150" />
+  <img src="./assets/ss/3.jpeg" width="150" />
+  <img src="./assets/ss/4.jpeg" width="150" />
+  <img src="./assets/ss/5.jpeg" width="150" />
+  <img src="./assets/ss/6.jpeg" width="150" />
+  <img src="./assets/ss/7.jpeg" width="150" />
+</p>
+
+<p float="left">
+  <b>Login Page</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Chats Page</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Contact Page</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Chat Room</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Settings Page</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Profile Page</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Qrcode Page</b>
+</p>
+---
+
 ## Features
 
 ### Authentication
