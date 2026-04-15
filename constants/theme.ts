@@ -1,0 +1,163 @@
+import { Dimensions } from 'react-native';
+
+const { width: SCREEN_WIDTH } = Dimensions.get('window');
+
+export type ThemeMode = 'light' | 'dark';
+
+export const LightTheme = {
+  primary: '#2AABEE',
+  primaryDark: '#1E9BD9',
+  primaryLight: '#5BBEF5',
+  secondary: '#10B981',
+  accent: '#F59E0B',
+  background: '#FFFFFF',
+  chatBackground: '#E5DDD5',
+  surface: '#F8F8F8',
+  surfaceLight: '#EFEFEF',
+  surfaceElevated: '#FFFFFF',
+  surfaceHover: '#E8E8E8',
+  textPrimary: '#000000',
+  textSecondary: '#6B7280',
+  textMuted: '#9CA3AF',
+  textInverse: '#FFFFFF',
+  error: '#EF4444',
+  errorDark: '#DC2626',
+  success: '#10B981',
+  warning: '#F59E0B',
+  messageSent: '#DCF8C6',
+  messageReceived: '#FFFFFF',
+  border: '#E5E7EB',
+  borderLight: '#F0F0F0',
+  inputBg: '#F0F0F0',
+  white: '#FFFFFF',
+  black: '#000000',
+  transparent: 'transparent',
+  overlay: 'rgba(0, 0, 0, 0.5)',
+  overlayLight: 'rgba(0, 0, 0, 0.3)',
+  online: '#22C55E',
+  offline: '#9CA3AF',
+  unread: '#2AABEE',
+  sent: '#000000',
+  delivered: '#9CA3AF',
+  read: '#2AABEE',
+  cardShadow: 'rgba(0, 0, 0, 0.1)',
+  tabActive: '#2AABEE',
+  tabInactive: '#9CA3AF',
+  headerBg: '#FFFFFF',
+  divider: '#E5E7EB',
+};
+
+export const DarkTheme = {
+  primary: '#2AABEE',
+  primaryDark: '#1E9BD9',
+  primaryLight: '#5BBEF5',
+  secondary: '#10B981',
+  accent: '#F59E0B',
+  background: '#0F172A',
+  chatBackground: '#1E293B',
+  surface: '#1E293B',
+  surfaceLight: '#334155',
+  surfaceElevated: '#273449',
+  surfaceHover: '#3F5170',
+  textPrimary: '#E2E8F0',
+  textSecondary: '#94A3B8',
+  textMuted: '#64748B',
+  textInverse: '#0F172A',
+  error: '#EF4444',
+  errorDark: '#DC2626',
+  success: '#10B981',
+  warning: '#F59E0B',
+  messageSent: '#2563EB',
+  messageReceived: '#334155',
+  border: '#334155',
+  borderLight: '#273449',
+  inputBg: '#273449',
+  white: '#FFFFFF',
+  black: '#000000',
+  transparent: 'transparent',
+  overlay: 'rgba(0, 0, 0, 0.7)',
+  overlayLight: 'rgba(0, 0, 0, 0.5)',
+  online: '#22C55E',
+  offline: '#64748B',
+  unread: '#2AABEE',
+  sent: '#E2E8F0',
+  delivered: '#64748B',
+  read: '#2AABEE',
+  cardShadow: 'rgba(0, 0, 0, 0.3)',
+  tabActive: '#2AABEE',
+  tabInactive: '#64748B',
+  headerBg: '#1E293B',
+  divider: '#334155',
+};
+
+export type ThemeColors = typeof LightTheme;
+
+export const Spacing = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 20,
+  xxl: 24,
+  xxxl: 32,
+  huge: 40,
+};
+
+export const FontSizes = {
+  xs: 10,
+  sm: 12,
+  md: 14,
+  lg: 16,
+  xl: 18,
+  xxl: 20,
+  xxxl: 24,
+  title: 28,
+  hero: 32,
+};
+
+export const BorderRadius = {
+  sm: 4,
+  md: 8,
+  lg: 12,
+  xl: 18,
+  xxl: 22,
+  full: 9999,
+};
+
+export const Shadows = {
+  small: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  medium: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  large: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
+    elevation: 5,
+  },
+};
+
+export const Layout = {
+  screenWidth: SCREEN_WIDTH,
+  avatarSmall: 40,
+  avatarMedium: 52,
+  avatarLarge: 85,
+  avatarXLarge: 110,
+  tabBarHeight: 56,
+  headerHeight: 56,
+  inputHeight: 44,
+  buttonHeight: 48,
+  fabSize: 56,
+  cardPadding: 16,
+};
